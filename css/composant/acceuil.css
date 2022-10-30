@@ -6,9 +6,20 @@
     margin-top: 10%;
     justify-content: space-between;
 }
+
 .boite5 img{
     margin-top: 5%;
     width: auto;
     display: block;
-    
+}
+
+.boite5 h1{
+    background-color: burlywood;
+    margin-top: 5%;
+    width: 100%;
+    border: solid 2px black;
+    font-weight: bold;
+    font-size: 1.5cm;
+    text-align: center;
+    padding-top: 7%;
 }
