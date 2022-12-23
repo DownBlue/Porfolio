@@ -1,0 +1,126 @@
+@import url('composant/aboutme.css');
+@import url('composant/acceuil.css');
+@import url('composant/acceuil2.css');
+@import url('composant/acceuil3.css');
+@import url('composant/footer.css');
+
+*{
+    background-color: rgb(255, 238, 216);
+    }
+
+    body{
+        margin: 0%;
+    }
+
+    nav{
+        /*justify-content: space-around;*/
+        margin: 0.5% auto;
+        /*color: black;*/
+        font-weight: bold;
+        /*text-decoration: underline;*/
+    }
+
+    h1{
+    background-color: burlywood;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-size: 5em;
+    margin: 0%;
+    }
+
+
+    h2{ /*je comprends pas*/
+    background-color: rgb(166, 136, 97);
+    color: black;
+    text-decoration:none;
+    font-size: 1.7em;
+    text-align: center;
+    margin: 0%;
+    }
+
+    .slider{
+        margin-top: 5%;
+        margin-left: 25%;
+        height: 30%;
+        width: 50%;
+     
+    }
+
+    @media screen and (min-width:550px)
+    {
+
+        
+    }
+
+    
+        /*.boite{
+        transform: translate(5em,5em);
+    }
+
+        .boite{
+        transform: skewx(30deg);
+    } 
+        .boite{ transition:all 1s;
+            transition: translate(50em ,5em);
+    }
+        .boite:hover{
+            transform:rotate(45deg);
+    }
+
+            /*la transition permet de mettre un timing a certain evenement plusieur parasetr
+            transition:allqui 1s le temps Linear fonction 1s delaty»*/ 
+
+            /*.boite{
+            transition:background 15s, transform 10s;
+            }
+
+            .boite:hover{
+            transform:rotate 45deg;
+            background-color:red;
+    }
+
+            /*on peut utilise les terme ease-in ou ease-out afin d accelerer ou de*/
+
+        /*.boite6{
+            transition:all 1s ease-out 1s;
+        }
+
+        .boite6:hover{
+            transform: rotate (45deg);
+            background-color: red;
+    } 
+
+        .boite7{
+                animation:slideLeft 30s;
+    }
+                @keyframes slideLeft{
+                from{
+                transform: translate (50%);
+                background: blue;
+                }
+                to{
+                transform: translate (0);
+                }
+    }
+
+        .boite8{
+                animation:slideRight 30s;
+    }
+                @keyframes sLideright{
+                from{
+                transform:translate (50%);
+                background:blue;
+                }
+                30%{ transform: translate (-50%);
+                background:red;
+                }
+                80% {
+                    transform: translate(200%);
+                    background: green;
+                    color:red;
+                }
+                to{
+                    transform: translate(0);
+                }   
+    }
