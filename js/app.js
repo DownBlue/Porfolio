@@ -1,26 +1,5 @@
 prompt (" Pas de problèmes pour venir jusqu'ici? ")
 
-/*const couleurs = document.querySelector("body");
-
-
-document.addEventListener("keydown", (event) => {
-    const espace = event.key;
-    if (espace === "space"){
-        var random_color = colors[Math.floor(Math.random() * colors.length)];
-        alert("La couleur de fond a changé")
-        document.querySelector("body").style.backgroundColor = random_color
-        return;
-    }
-})
-
-function handleKeyUp(evt){
-    var key = evt.keyCode
-  if (key === 32) {
-  alert('La couleur de fond a changé')
-  document.querySelector('body').style.backgroundColor = couleurs.style.backgroundColor("[Math.floor(Math.random() * colors.length)]")
-  }}*/
-  window.addEventListener('keyup', handleKeyUp)
-
   var paragraphe = document.getElementById("paragraphe"); 
 
   var pseudo = prompt('Entrez votre nom/pseudo')
